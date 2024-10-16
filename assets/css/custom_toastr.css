@@ -1,0 +1,55 @@
+
+#toast-container>.toast-success,
+#toast-container>.toast-error {
+    background-color: #fff;
+    color: #000;
+    background-image: none !important;
+    opacity: 1;
+    border-radius: 0;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px !important;
+    border: none;
+}
+
+.toast-progress {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 2px;
+    background-color: #629D23;
+    opacity: 1 !important;
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=40);
+    filter: alpha(opacity=40);
+}
+
+.toast-red {
+    background-color: #fff !important;
+    color: red !important;
+    font-weight: 700;
+}
+
+.toast-red .toast-progress {
+    background-color: red !important;
+}
+
+.toast-red .toast-close-button {
+    color: red !important;
+}
+
+.toast-pink {
+    background-color: #fff !important;
+    color: #f67280 !important;
+    font-weight: 700;
+}
+
+.toast-pink .toast-progress {
+    background-color: #f67280 !important;
+}
+
+.toast-pink .toast-close-button {
+    color: #f67280 !important;
+}
+
+.toast-bottom-right {
+    right: 0 !important;
+    top: 15%;
+}

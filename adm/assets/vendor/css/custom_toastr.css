@@ -1,0 +1,115 @@
+
+       #toast-container>.toast-success,
+        #toast-container>.toast-error {
+            background-color: #fff;
+            color: #000;
+            background-image: none !important;
+            opacity: 1;
+            border-radius: 0;
+            box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px !important;
+            border: none;
+        }
+
+        .toast-progress {
+            position: absolute;
+            left: 0;
+            top: 0;
+            height: 2px;
+            background-color: #629D23;
+            opacity: 1 !important;
+            -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=40);
+            filter: alpha(opacity=40);
+        }
+
+        .toast-red {
+            background-color: #fff !important;
+            color: red !important;
+            font-weight: 700;
+        }
+
+        .toast-red .toast-progress {
+            background-color: red !important;
+        }
+
+        .toast-red .toast-close-button {
+            color: red !important;
+        }
+
+        .toast-pink {
+            background-color: #fff !important;
+            color: #f67280 !important;
+            font-weight: 700;
+        }
+
+        .toast-pink .toast-progress {
+            background-color: #f67280 !important;
+        }
+
+        .toast-pink .toast-close-button {
+            color: #f67280 !important;
+        }
+
+        .toast-bottom-right {
+            right: 0 !important;
+            top: 15%;
+        }
+
+
+        /* Custom styles for Summernote */
+        .note-editor {
+            border: 1px solid #ccc;
+            background-color: #f9f9f9;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .note-toolbar {
+            background-color: #f67280;
+            color: #fff;
+        }
+
+        .note-toolbar .note-btn {
+            color: #fff;
+        }
+
+        .note-editable {
+            background-color: #fff;
+            color: #333;
+        }
+
+        .image-preview-container {
+            display: flex;
+            align-items: center;
+            display: none;
+            margin-top: 20px;
+        }
+
+        .image-preview {
+            max-width: 150px;
+            max-height: 150px;
+            margin: 10px 0;
+            border: 2px solid #f67280;
+            border-radius: 5px;
+            margin-left: 10px;
+        }
+
+        .current_img {
+            max-width: 150px;
+            max-height: 150px;
+            margin: 10px 0;
+            border: 2px solid #f67280;
+            border-radius: 5px;
+            margin-left: 10px;
+        }
+
+        .bx-trash {
+            color: red;
+        }
+
+        .bx-edit-alt {
+            color: green;
+        }
+
+        .bx-dots-vertical-rounded {
+            color: #f67280;
+        }
