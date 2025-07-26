@@ -7,22 +7,22 @@ NoonPost is a lightweight and responsive blog platform built with **core PHP**, 
 ## 📁 Project Structure
 
 noonpost/
-├── adm/ # Admin dashboard files
-├── assets/ # Images, stylesheets, and JS files, Boostrap
-├── database/ # DB connection and configuration
-├── about.php # About page
-├── blog.php # Blog listing page
-├── blog_detail.php # Blog details page
-├── breadcrumb.php # Breadcrumb navigation
-├── contact.php # Contact page
-├── controller.php # Handles form logic
-├── footer.php # Footer layout
-├── header.php # Header layout
-├── index.php # Homepage
-├── login.php # Login system
-├── search.php # Blog search
-├── signup.php # Registration
-└── README.md # This file
+│
+├── adm/                        # Admin dashboard and control panel
+├── assets/                     # Static frontend assets
+├── database/                   # Database connection/configuration files
+├── about.php                   # Static About page
+├── blog.php                    # Blog listing page
+├── blog_detail.php            # Individual blog post view
+├── breadcrumb.php              # Breadcrumb component for navigation
+├── contact.php                 # Contact form page
+├── controller.php              # Handles form submissions, login/signup logic
+├── footer.php                  # Shared footer layout
+├── header.php                  # Shared header layout
+├── index.php                   # Homepage of the blog
+├── login.php                   # User login page
+├── signup.php                  # User registration page
+├── search.php                  # Blog search results page
 
 ---
 
