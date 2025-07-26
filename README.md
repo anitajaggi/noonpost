@@ -5,7 +5,7 @@ NoonPost is a lightweight and responsive blog platform built with **core PHP**, 
 ---
 
 ## 📁 Project Structure
-
+---
 noonpost/
 │
 ├── adm/                        # Admin dashboard and control panel
